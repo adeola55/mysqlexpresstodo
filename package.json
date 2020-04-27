@@ -1,6 +1,7 @@
 {
   "name": "mysqlexpresstodo",
   "version": "1.0.0",
+  "description": "",
   "main": "routes/index.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
@@ -27,14 +28,5 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-react-hooks": "^2.5.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/EmmanuelJucaban/mysqlexpresstodo.git"
-  },
-  "bugs": {
-    "url": "https://github.com/EmmanuelJucaban/mysqlexpresstodo/issues"
-  },
-  "homepage": "https://github.com/EmmanuelJucaban/mysqlexpresstodo#readme",
-  "description": ""
+  }
 }
